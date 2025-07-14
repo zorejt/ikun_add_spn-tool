@@ -1,0 +1,8 @@
+[package]
+name = "add_spn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ldap3 = { git = "https://github.com/inejge/ldap3", branch = "master" }
+chrono = "0.4.41"
